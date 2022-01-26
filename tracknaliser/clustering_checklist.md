@@ -1,0 +1,6 @@
+- [1] Packaging the code into a function named cluster(ps, clusters, iterations);  cf75b0324b95eb78cd72f630437e312dddbe4263
+- [2] Generate k=clusters centres randomly at first by a for loop; 8a2485cd4a12bcd6b11d8dda932fb2be0efe724f
+- [3] Change iterating time 10 to parameter iterations; f48f1724cadfa6395e52deedf7d53b618e235aec
+- [4] Calculate the distance between each element to their centres by a for loop for n=clusters times; 1447abbbdb3d6795b216695ab464ac30aafd6e93
+- [5] Continue while loop when an error of division by zero occur, and change iteration time 3 to parameter iterations so that iterate all clusters; f05d29c99327c143e2c735834be09162dc380bb5
+- [6] Return a list with the track indices that belong to each group; fbff4a287bc77ac00024b735bf66d5f1f3bc6a1e
